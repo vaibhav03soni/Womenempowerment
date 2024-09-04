@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-container-main{
+    height: 500px;
+    width: 100%;
+    background-image: url('/src//image//home\ banner.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-container{
+    height: 400px;
+    width: 100%;
+}
+.home-container h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+}
+.home-container p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+}
+.home-container button{
+    display: block;
+}
+.home-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.home-container-m{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+.home-container-l{
+    width: 100%;
+}
+.home-container-l h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.home-l-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.home-container-lt{
+
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+.home-container-lt h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+    margin-top: 25px;
+}
+.home-container-m button{
+    height: 40px;
+    width: 100px;
+    background-color: cadetblue;
+    color: aliceblue;
+    border-color: aliceblue;transition: 2s;
+}
+.home-container-m button:hover{
+    background-color: aquamarine;
+}
+.home-container-l button{
+    height: 40px;
+    width: 100px;
+    background-color: cadetblue;
+    color: aliceblue;
+    border-color: aliceblue;transition: 2s;
+}
+.home-container-l button:hover{
+    background-color: aquamarine;
+}
+.home-container button{
+    height: 40px;
+    width: 100px;
+    background-color: cadetblue;
+    color: aliceblue;
+    border-color: aliceblue;transition: 2s;
+}
+.home-container button:hover{
+    background-color: aquamarine;
+}
+.home-row img{
+    height: 200px;
+}
+.home-container-m{
+    height: 250px;
+    background-image: url('/src//image/char.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.home-l-colume img{
+    height: 200px;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gallary-main-container{
+    height: 400px;
+    width: 100%;
+    background-image: url('/src//image/istockphoto-1254127323-1024x1024.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+ }
+.gallary-container{
+    width: 100%;
+    justify-content: center;
+    background-color: transparent;
+}
+.gallary-container h1{
+    text-align: center;
+}
+.gallary-container img{
+    height: 200px;
+    width:250px;
+    margin-right: 5px;
+    transition: 2s infinite;
+   
+    
+}
+.gallary-container img:hover{
+box-shadow: 5cqmin; 
+ border-radius: 5px;
+  float: left;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.login-container{
+    padding-left: 450px;
+    height: 400px;
+    background-color:#faf9f7 ;
+}
+
+input {
+    height: 30px;
+    width: 400px;
+    margin-top: 5px;
+    align-self: centers;
+}

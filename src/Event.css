@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Event-container-main{
+    height: 400px;
+    width: 100%;
+    background-image: url('/src//image/event-bakground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Event-Container{
+    width: 100%;
+
+}
+
+.Event-Container h1{
+    font-size: x-large;
+    font-family: sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+.Event-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Event-row h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.Event-row p{
+    font-family: sans-serif;
+    font-size: larger;
+}
+Event-row button{
+    height: 30px;
+}
+.Event-row button{
+    height: 40px;
+    width: 100px;
+    background-color: cadetblue;
+    color: aliceblue;
+    border-color: aliceblue;transition: 2s;
+}
+..Event-row button:hover{
+    background-color: aquamarine;
+}

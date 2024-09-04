@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Register-container{
+    width: 100%;
+}
+
+#Register{
+    height: 30px;
+    width: 100px;
+    background-color: cadetblue;
+    color: aliceblue;
+    margin-left: 2px;
+    border-color: aliceblue;
+}
+#login{
+    height: 30px;
+    width: 100px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+}

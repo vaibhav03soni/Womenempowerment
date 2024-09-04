@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-main-container{
+    height: 400px;
+    width: 100%;
+    background-image: url('/src/image/Contact-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+.Contact-container{
+    height: 300px;
+    width: 100%;
+}
+.Contact-container h2{
+    font-size: x-large;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+.Contact-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Contact-row h3{
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.Contact-row p{
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+}
+form{
+    height: 350px;
+   margin-top: 20px;
+    justify-content: center;
+}
+form h1{
+    font-family: sans-serif;
+}
+form input{
+    height: 30px;
+    border-color: cornsilk;
+    gap: 5px;
+}
+form textarea{
+    width: 400px;
+    height: 70px;
+    margin-top: 5px;
+}

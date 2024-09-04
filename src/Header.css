@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 30px;
+    width: 100%;
+    background-color: cadetblue;
+    text-align: center;     
+}
+.logo{
+    margin-right: 45%;
+    font-family: sans-serif;
+    color: aliceblue;
+    animation: movie 5s infinite;
+    text-shadow:5px ;
+}
+@keyframes movie{
+    0%{
+        color: beige;
+        rotate: 50deg;
+    }
+    50%{
+        color: rgb(104, 104, 112);
+        rotate: 350deg;
+        -ms-zoom-animation: initial;
+        -moz-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    75%{
+        color: rgb(137, 137, 172);
+        rotate: 350deg;
+        -ms-behavior: initial;
+        border-color: blueviolet;
+        border: 2px;
+    }
+
+}
+ a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: large;
+    gap: 20px; 
+   padding: 10px;
+}
